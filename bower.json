@@ -1,0 +1,25 @@
+{
+  "name": "tutorial",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Lars Hampe <hampelars@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.0.5"
+  }
+}

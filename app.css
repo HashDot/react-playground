@@ -1,0 +1,118 @@
+.sidebar {
+  color: #FFFFFF;
+}
+
+.spacer {
+  height: 50px;
+}
+
+.spacer-small {
+  height: 10px;
+}
+
+.spacer-mid {
+  height: 20px;
+}
+
+.channels {
+  padding: 10px;
+}
+
+
+/* User Section */
+.User {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ui.header {
+  padding: 0.5em;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.ui.header .sub.header.text-white,
+.ui[class*="right floated"].header,
+.ui[class*="left floated"].header {
+  color: #FFFFFF;
+}
+
+.ui.comments {
+  margin: 1em;
+}
+
+.ui.segment[class*="bottom attached"] {
+  margin: 0;
+  padding: 0;
+}
+
+.ui.segment {
+  margin: 0;
+}
+
+.ui.relaxed.list:not(.horizontal) > .item {
+  padding: 10px;
+}
+
+.ui.relaxed.list:not(.horizontal) > .item:first-child {
+  padding-top: 10px;
+}
+
+
+.ui.relaxed.list:not(.horizontal) > .item:last-child {
+  padding-bottom: 10px;
+}
+
+
+.ui.relaxed.list:not(.horizontal) > .item:hover {
+  background: #262829;
+  cursor: pointer;
+}
+
+h3.ui.header {
+  color: #FFFFFF;
+  border-bottom: 1px solid #4CAF50;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.ui.header.bar {
+  color: #FFFFFF;
+  border-top: 10px solid transparent;
+}
+
+.ui.header.chat {
+  border-top: 10px solid transparent;
+}
+
+
+h2.ui.header.bar .sub.header {
+  color: #FFFFFF;
+}
+
+.ui.list.channelList {
+  margin: 0;
+}
+
+.ui.left.visible.sidebar, .ui.right.visible.sidebar {
+  box-shadow: 0px 0px 0px rgba(34, 36, 38, 0.15);
+}
+
+.chatComments {
+  max-width: 100%;
+  overflow-y: scroll;
+}
+
+.ui.comments {
+  max-width: 100%;
+}
+
+.chatInput {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 50px;
+  padding: 10px;
+}
