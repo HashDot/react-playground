@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Portal from 'react-portal';
 
 
 import Channels from './channels/Channels.jsx'
